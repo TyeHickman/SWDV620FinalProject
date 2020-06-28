@@ -1,0 +1,30 @@
+{
+  "name": "tasknodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@angular/animations": "^6.0.2",
+    "@angular/cdk": "^6.1.0",
+    "@angular/cli": "^6.0.3",
+    "@angular/material": "^6.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.1",
+    "socket.io": "^2.1.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "nodemon": "^2.0.4",
+    "request": "^2.86.0"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Tye",
+  "license": "ISC"
+}
